@@ -2,5 +2,5 @@
 
 void hello()
 {
-	printf("Hello world!!!!\n");
+	printf("Welcome to Slut station!\n");
 }

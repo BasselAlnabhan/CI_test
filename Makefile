@@ -36,7 +36,7 @@ build/%.o: %.c
 
 check: $(TARGET_BINARY)
 	@# Execute binary and verify output, it returns 0 (success), or 1 (fail)
-	[ "$$($(TARGET_BINARY))" = "Hello world!" ] ||\
+	[ "$$($(TARGET_BINARY))" = "Welcome to Slut station!" ] ||\
 	(echo "Output does not match:"\
 	"\n$$($(TARGET_BINARY))"\
 	"\nHello world!"; false)
