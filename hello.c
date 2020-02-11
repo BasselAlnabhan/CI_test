@@ -3,5 +3,4 @@
 void hello()
 {
 	printf("Hello world!\n");
-	printf("Not");
 }

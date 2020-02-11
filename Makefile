@@ -39,3 +39,8 @@ check: $(TARGET_BINARY)
 	[ "$$($(TARGET_BINARY))" = "Hello world!" ]
 
 .PHONY: all clean
+
+##################
+# BADGE #
+##################
+![C/C++ CI](https://github.com/BasselAlnabhan/CI_test/workflows/C/C++%20CI/badge.svg)
